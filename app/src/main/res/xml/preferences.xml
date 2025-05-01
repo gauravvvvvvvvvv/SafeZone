@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Profile">
+        <EditTextPreference
+            app:key="user_name"
+            app:title="Your Name"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Notifications">
+        <SwitchPreferenceCompat
+            app:key="enable_notifications"
+            app:title="Enable Notifications"
+            app:summary="Receive alerts about incidents in your community"
+            app:defaultValue="true" />
+            
+        <SwitchPreferenceCompat
+            app:key="enable_sound"
+            app:title="Alert Sounds"
+            app:summary="Play a sound when receiving alerts"
+            app:defaultValue="true"
+            app:dependency="enable_notifications" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Emergency Contacts">
+        <EditTextPreference
+            app:key="emergency_phone"
+            app:title="Emergency Contact Phone"
+            app:useSimpleSummaryProvider="true" />
+            
+        <EditTextPreference
+            app:key="emergency_email"
+            app:title="Emergency Contact Email"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory app:title="About">
+        <Preference
+            app:key="app_version"
+            app:title="App Version"
+            app:summary="1.0" />
+            
+        <Preference
+            app:key="terms_of_service"
+            app:title="Terms of Service"
+            app:summary="View the terms of service for SafeZone" />
+            
+        <Preference
+            app:key="privacy_policy"
+            app:title="Privacy Policy"
+            app:summary="View the privacy policy for SafeZone" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

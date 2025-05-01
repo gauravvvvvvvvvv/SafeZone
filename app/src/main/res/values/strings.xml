@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SafeZone</string>
+    <string name="app_logo">SafeZone Logo</string>
+    <string name="welcome_message">Welcome to SafeZone</string>
+    <string name="report_incident">Report Incident</string>
+    <string name="view_alerts">View Alerts</string>
+    <string name="community_chat">Community Chat</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="alerts">Alerts</string>
+    <string name="reports">Reports</string>
+    <string name="community">Community</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <string name="incident_type_prompt">What type of incident are you reporting?</string>
+    <string name="incident_description">Incident Description</string>
+    <string name="incident_location">Location</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="rate_safety">Rate the safety level:</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="emergency_call">Emergency Alert</string>
+    <string name="report_submitted">Report submitted successfully!</string>
+    <string name="alert_sent">Alert sent to nearby community members</string>
+</resources>

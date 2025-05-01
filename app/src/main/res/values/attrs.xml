@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SafetyRatingView">
+        <attr name="iconSize" format="dimension" />
+        <attr name="iconSpacing" format="dimension" />
+        <attr name="defaultRating" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#1976D2</color> <!-- Blue 700 -->
+    <color name="primary_dark">#004BA0</color> <!-- Blue 900 -->
+    <color name="primary_light">#63A4FF</color> <!-- Blue 300 -->
+    <color name="accent">#00BFAE</color> <!-- Teal accent -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="warning">#FFA500</color>
+    <color name="danger">#FF0000</color>
+    <color name="safe">#4CAF50</color>
+</resources>
